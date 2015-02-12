@@ -48,6 +48,7 @@
 
 }
 #Hitta {
+
     font-size: 20px;
     background-color: red;
 
@@ -60,6 +61,7 @@
 
 }
 #öppettider {
+
     font-size: 20px;
     background-color: red;
 
@@ -117,7 +119,7 @@
 
 }
 #Main {
-    margin-top: -222px;
+    margin-top: -206px;
     margin-left: 200px;
     width: 750px;
     height: 750px;

@@ -97,7 +97,7 @@
     height: 30px ;
     width: 220px ;
     margin-top: -5px;
-    background-color: red;
+    background-color: red   ;
 
 }
 #pil {
@@ -117,7 +117,7 @@
 
 }
 #Main {
-    margin-top: -222px;
+    margin-top: -206px;
     margin-left: 200px;
     width: 750px;
     height: 750px;
@@ -127,9 +127,28 @@
 
 
 }
-#nyheter {
-    font-size: 35px;
-    margin-left: 25px;
+#Galleri {
+
+
+}
+#Galtext {
+    margin-left: 250px;
+    font-size: 45px;
+    background-color: lightgray;
+}
+#rest1 {
+     height: 400px;
+     width: 750px;
+
+}
+#rest2 {
+    height: 400px;
+    width: 750px;
+
+}
+#rest3 {
+    height: 400px;
+    width: 750px;
 
 }
 

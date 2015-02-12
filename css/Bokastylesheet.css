@@ -117,7 +117,7 @@
 
 }
 #Main {
-    margin-top: -222px;
+    margin-top: -206px;
     margin-left: 200px;
     width: 750px;
     height: 750px;
@@ -128,10 +128,12 @@
 
 }
 #omosstext {
+    margin-left: 20px;
     font-style: oblique;
     font-size: 20px;
 }
 #vag {
+    margin-left: 20px;
     font-style: oblique;
     font-family: cursive;
     font-size: 30px;
@@ -139,6 +141,7 @@
 }
 #nrboka {
     font-size: 30px;
+    margin-left: 20px;
 
 
 }
