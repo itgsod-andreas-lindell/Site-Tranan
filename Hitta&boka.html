@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>Tranan hut</title>
+<link rel="stylesheet" type="text/css" href="css/Hittastylesheet.css">
+    <script
+            src="http://maps.googleapis.com/maps/api/js">
+    </script>
+
+    <script>
+        function initialize() {
+            var mapProp = {
+                center:new google.maps.LatLng(59.1948112,17.8965799),
+                zoom:16,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body background="image/flower.png" id="flower">
+<div id="logobar">
+
+    <a href="hemsidan.html">
+    <div id="logotranan">
+        <img src="./image/Trananlogo.png" height="192px" width="200px">
+    </div>
+    </a>
+    <img id="pil" src="./image/Black_Down_Arrow.png">
+    <div id="highbar"></div>
+    <a href="hemsidan.html">
+        <img id="kalender" src="./image/calendar.png">
+        <a/>
+        <div id="midbar"></div>
+        <div id="lowbar">
+
+        </div>
+        <div id="bartext">
+            <h3> Ring och Boka! </h3>
+        </div>
+</div>
+
+<div id="sidebar">
+    <div id="funktioner">
+        <a href="Hitta&boka.html">
+            <div id="Hitta">
+                <p>Hitta</p>
+            </div>
+            <a/>
+
+                <a href="Meny.html">
+                    <div id="menu">
+                        <p>Menu</p>
+                    </div>
+                    <a/>
+
+                    <a href="Öppettider.html">
+                        <div id="öppettider">
+                            <p>Öppettider</p>
+                        </div>
+                        <a/>
+
+                        <a href="Galleri.html">
+                            <div id="galleri">
+                                <p>Galleri</p>
+                            </div>
+                        </a>
+
+
+                        <a href="Boka%20&%20Om%20oss.html">
+                            <div id="omoss">
+                                <p>Boka & Om oss</p>
+                            </div>
+                            <a/>
+    </div>
+    <div id="googleMap" style="width:750px;height:600px;"></div>
+</div>
+
+<div id="bartext2">
+    <h3> Tranan Hut<3</h3>
+</div>
+
+
+
+</body>
+</html>
